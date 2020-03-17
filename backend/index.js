@@ -1,6 +1,6 @@
 // import express from 'express';
 const express = require('express');
-const app = express();
+const app = express(); 
 const PORT = 3000;
 const usersRouter = require('./routes/users.js');
 //para que el req.body no sea undefined
